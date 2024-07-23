@@ -1,0 +1,3 @@
+ROW SIZE = 2
+COLUMN SIZE = 3
+VALUE = 3
