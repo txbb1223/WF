@@ -42,7 +42,7 @@ myMatrix::myMatrix() {
 
 	config.close();
 
-	data_ = std::vector<std::vector<double>>(nRows_, std::vector<double>(nCols_, value));
+	data_ = std::vector<std::vector<double> >(nRows_, std::vector<double>(nCols_, value));
 
 }
 
@@ -50,7 +50,7 @@ myMatrix::myMatrix() {
 myMatrix::myMatrix(size_t nRows, size_t nCols, double userData[]) : nRows_(nRows), nCols_(nCols)
 {
 
-	data_ = std::vector<std::vector<double>>(nRows_);
+	data_ = std::vector<std::vector<double> >(nRows_);
 
 	for (size_t i = 0; i < nRows_; i++) {
 		
