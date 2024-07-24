@@ -3,7 +3,7 @@ Compiled in VS2022. Complied files are removed to ensure the attachment won't be
 
 Task1:
 * Please see Task1.sln. Some driver code was included in the main function for demonstration.
-* Please see CppPythonWrapper for Step 3 and 4.
+* Please see CppPythonWrapper for Step 3 and 4. Some writeup in Step3and4.txt.
 
 Task2:
 * Please see Task2.sln. The code uses void* and pointer to member to sort vector of any custom type (by template). It aims to be as generic as poosible. 
