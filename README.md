@@ -6,5 +6,7 @@ Task1:
 * Please see CppPythonWrapper for Step 3 and 4. Some writeup in Step3and4.txt.
 
 Task2:
-* Please see Task2.sln. The code uses void* and pointer to member to sort vector of any custom type (by template). It aims to be as generic as poosible. 
+* Please see Task2.sln.
+* Note that in Main, the code uses void* and pointer to member to sort vector of any custom type (by template). It aims to be as generic as poosible. 
 However, it won't compile due to C++ won't allow conversion between void* and T::*memberPtr (also tried casting but didn't work). Can't figure out.
+* Main2 provides a less generic comparator that only works for MyStruct in the example. Can compile, run and work correctly.
