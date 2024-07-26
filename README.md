@@ -10,3 +10,4 @@ Task2:
 * Note that in Main, the code uses void* and pointer to member to sort vector of any custom type (by template). It aims to be as generic as poosible. 
 However, it won't compile due to C++ won't allow conversion between void* and T::*memberPtr (also tried casting but didn't work). Can't figure out.
 * Main2 provides a less generic comparator that only works for MyStruct in the example. Can compile, run and work correctly.
+* Main3 works as a generic solution - the main change is replacing void* used in Main.cpp by std::function.
